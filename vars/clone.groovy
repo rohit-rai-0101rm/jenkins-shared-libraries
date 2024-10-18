@@ -1,6 +1,6 @@
 def call (String url,String branch) {
     echo "this is cloning step"
-    git url :"https://github.com/rohit-fx/django-notes-app.git" , branch:"main"
+    git url : "${url}" , branch: "${branch}"
                 
-    echo "code cloned successfully"
+  
 }
